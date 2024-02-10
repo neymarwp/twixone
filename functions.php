@@ -217,3 +217,5 @@ $update_checker = PucFactory::buildUpdateChecker(
 	__FILE__,
 	'twixone'
 );
+
+$update_checker->getVcsApi()->enableReleaseAssets();
